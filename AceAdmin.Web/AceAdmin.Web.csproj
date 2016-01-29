@@ -305,6 +305,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\NavigatorBar.cshtml" />
     <Content Include="Views\OtherPage\Blank.cshtml" />
+    <Content Include="Views\OtherPage\Error404.cshtml" />
+    <Content Include="Views\OtherPage\Error500.cshtml" />
+    <Content Include="Views\OtherPage\Grid.cshtml" />
+    <Content Include="Views\OtherPage\FAQ.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
