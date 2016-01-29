@@ -18,5 +18,10 @@ namespace AceAdmin.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult Pricing()
+        {
+            return View();
+        }
     }
 }
