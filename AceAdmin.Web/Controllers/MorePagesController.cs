@@ -23,5 +23,24 @@ namespace AceAdmin.Web.Controllers
         {
             return View();
         }
+        public ActionResult Invoice()
+        {
+            return View();
+        }
+
+        public ActionResult Timeline()
+        {
+            return View();
+        }
+
+        public ActionResult EmailTemplates()
+        {
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }

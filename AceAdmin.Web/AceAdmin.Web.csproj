@@ -320,6 +320,10 @@
     <Content Include="Views\MorePages\Profile.cshtml" />
     <Content Include="Views\MorePages\Inbox.cshtml" />
     <Content Include="Views\MorePages\Pricing.cshtml" />
+    <Content Include="Views\MorePages\EmailTemplates.cshtml" />
+    <None Include="Views\MorePages\Invoice.cshtml" />
+    <Content Include="Views\MorePages\Timeline.cshtml" />
+    <Content Include="Views\MorePages\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
