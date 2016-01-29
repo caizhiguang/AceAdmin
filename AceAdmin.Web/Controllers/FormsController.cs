@@ -9,7 +9,27 @@ namespace AceAdmin.Web.Controllers
     public class FormsController : Controller
     {
         // GET: Forms
-        public ActionResult Index()
+        public ActionResult Dropzone()
+        {
+            return View();
+        }
+
+        public ActionResult FormElements()
+        {
+            return View();
+        }
+
+        public ActionResult FormElements2()
+        {
+            return View();
+        }
+
+        public ActionResult FormWizard()
+        {
+            return View();
+        }
+
+        public ActionResult WYSIWYG()
         {
             return View();
         }

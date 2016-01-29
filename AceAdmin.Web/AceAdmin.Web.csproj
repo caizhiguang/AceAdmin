@@ -324,17 +324,21 @@
     <Content Include="Views\Gallery\Index.cshtml" />
     <Content Include="Views\Calendar\Index.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Forms\FormElements.cshtml" />
+    <Content Include="Views\Forms\FormElements2.cshtml" />
+    <Content Include="Views\Forms\FormWizard.cshtml" />
+    <Content Include="Views\Forms\WYSIWYG.cshtml" />
+    <Content Include="Views\Forms\Dropzone.cshtml" />
     <None Include="Views\MorePages\Invoice.cshtml" />
     <Content Include="Views\MorePages\Timeline.cshtml" />
     <Content Include="Views\MorePages\Login.cshtml" />
+    <Content Include="Views\Widgets\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Forms\" />
     <Folder Include="Views\Tables\" />
     <Folder Include="Views\UIElements\" />
-    <Folder Include="Views\Widgets\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
