@@ -13,5 +13,10 @@ namespace AceAdmin.Web.Controllers
         {
             return View("Profile");
         }
+
+        public ActionResult Inbox()
+        {
+            return View();
+        }
     }
 }

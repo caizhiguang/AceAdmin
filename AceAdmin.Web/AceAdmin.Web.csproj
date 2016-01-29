@@ -318,6 +318,7 @@
     <Content Include="Views\OtherPages\Grid.cshtml" />
     <Content Include="Views\OtherPages\FAQ.cshtml" />
     <Content Include="Views\MorePages\Profile.cshtml" />
+    <Content Include="Views\MorePages\Inbox.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
