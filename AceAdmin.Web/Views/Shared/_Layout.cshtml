@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="~/assets/font-awesome/4.2.0/css/font-awesome.min.css" />
 
     <!-- page specific plugin styles -->
+    @RenderSection("PagePluginStyles", required: false)
+
     <!-- text fonts -->
     <link rel="stylesheet" href="~/assets/fonts/fonts.googleapis.com.css" />
 
@@ -26,7 +28,7 @@
       <link rel="stylesheet" href="~/assets/css/ace-ie.min.css" />
     <![endif]-->
     <!-- inline styles related to this page -->
-    @RenderSection("PageSpecificStyles", required: false)
+    @RenderSection("PageInlineStyles", required: false)
 
     <!-- ace settings handler -->
     <script src="~/assets/js/ace-extra.min.js"></script>
@@ -302,7 +304,7 @@
 
                     <ul class="submenu">
                         <li class="">
-                            <a href="tables.html">
+                            <a href="@Url.Action("Table", "Tables")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Simple &amp; Dynamic
                             </a>
@@ -311,7 +313,7 @@
                         </li>
 
                         <li class="">
-                            <a href="jqgrid.html">
+                            <a href="@Url.Action("JQGrid", "Tables")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 jqGrid plugin
                             </a>
@@ -380,7 +382,7 @@
                 </li>
 
                 <li class="">
-                    <a href="widgets.html">
+                    <a href="@Url.Action("Index", "Widgets")">
                         <i class="menu-icon fa fa-list-alt"></i>
                         <span class="menu-text"> Widgets </span>
                     </a>

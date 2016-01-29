@@ -9,7 +9,12 @@ namespace AceAdmin.Web.Controllers
     public class TablesController : Controller
     {
         // GET: Tables
-        public ActionResult Index()
+        public ActionResult Table()
+        {
+            return View();
+        }
+
+        public ActionResult JQGrid()
         {
             return View();
         }

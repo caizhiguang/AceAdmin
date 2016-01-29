@@ -333,11 +333,12 @@
     <Content Include="Views\MorePages\Timeline.cshtml" />
     <Content Include="Views\MorePages\Login.cshtml" />
     <Content Include="Views\Widgets\Index.cshtml" />
+    <Content Include="Views\Tables\Table.cshtml" />
+    <Content Include="Views\Tables\JQGrid.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Tables\" />
     <Folder Include="Views\UIElements\" />
   </ItemGroup>
   <ItemGroup>
