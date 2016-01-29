@@ -454,7 +454,7 @@
                         </li>
 
                         <li class="">
-                            <a href="invoice.html">
+                            <a href="@Url.Action("Invoice", "MorePages")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Invoice
                             </a>
@@ -463,7 +463,7 @@
                         </li>
 
                         <li class="">
-                            <a href="timeline.html">
+                            <a href="@Url.Action("Timeline", "MorePages")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Timeline
                             </a>
@@ -472,7 +472,7 @@
                         </li>
 
                         <li class="">
-                            <a href="email.html">
+                            <a href="@Url.Action("EmailTemplates", "MorePages" )">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Email Templates
                             </a>
@@ -481,7 +481,7 @@
                         </li>
 
                         <li class="">
-                            <a href="login.html">
+                            <a href="@Url.Action("Login", "MorePages")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Login &amp; Register
                             </a>
@@ -659,6 +659,8 @@
                             </div><!-- /.pull-left -->
                         </div><!-- /.ace-settings-box -->
                     </div><!-- /.ace-settings-container -->
+
+                    @RenderSection("PageHeader", false)
 
                     <div class="row">
                         <div class="col-xs-12">
