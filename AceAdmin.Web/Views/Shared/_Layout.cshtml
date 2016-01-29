@@ -515,7 +515,7 @@
                         </li>
 
                         <li class="">
-                            <a href="@Url.Action("Error404", "OtherPage")">
+                            <a href="@Url.Action("Error404", "OtherPages")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Error 404
                             </a>
@@ -524,7 +524,7 @@
                         </li>
 
                         <li class="">
-                            <a href="@Url.Action("Error500", "OtherPage")">
+                            <a href="@Url.Action("Error500", "OtherPages")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Error 500
                             </a>
@@ -533,7 +533,7 @@
                         </li>
 
                         <li class="">
-                            <a href="@Url.Action("Grid", "OtherPage")">
+                            <a href="@Url.Action("Grid", "OtherPages")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Grid
                             </a>
@@ -542,7 +542,7 @@
                         </li>
 
                         <li class="active">
-                            <a href="@Url.Action("Blank", "OtherPage")">
+                            <a href="@Url.Action("Blank", "OtherPages")">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 Blank Page
                             </a>
@@ -725,12 +725,13 @@
     <script src="~/assets/js/bootstrap.min.js"></script>
 
     <!-- page specific plugin scripts -->
-    @RenderSection("PageInlineScripts", required: false)
+    @RenderSection("PagePluginScripts", required: false)
 
     <!-- ace scripts -->
     <script src="~/assets/js/ace-elements.min.js"></script>
     <script src="~/assets/js/ace.min.js"></script>
 
     <!-- inline scripts related to this page -->
-</body>
+    @RenderSection("PageInlineScripts", required: false)
+  </body>
 </html>

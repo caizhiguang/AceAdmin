@@ -114,7 +114,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
-    <Compile Include="Controllers\OtherPageController.cs" />
+    <Compile Include="Controllers\CalendarController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
+    <Compile Include="Controllers\FormsController.cs" />
+    <Compile Include="Controllers\GalleryController.cs" />
+    <Compile Include="Controllers\MorePagesController.cs" />
+    <Compile Include="Controllers\OtherPagesController.cs" />
+    <Compile Include="Controllers\TablesController.cs" />
+    <Compile Include="Controllers\UIElementsController.cs" />
+    <Compile Include="Controllers\WidgetsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -304,16 +312,23 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\NavigatorBar.cshtml" />
-    <Content Include="Views\OtherPage\Blank.cshtml" />
-    <Content Include="Views\OtherPage\Error404.cshtml" />
-    <Content Include="Views\OtherPage\Error500.cshtml" />
-    <Content Include="Views\OtherPage\Grid.cshtml" />
-    <Content Include="Views\OtherPage\FAQ.cshtml" />
+    <Content Include="Views\OtherPages\Blank.cshtml" />
+    <Content Include="Views\OtherPages\Error404.cshtml" />
+    <Content Include="Views\OtherPages\Error500.cshtml" />
+    <Content Include="Views\OtherPages\Grid.cshtml" />
+    <Content Include="Views\OtherPages\FAQ.cshtml" />
+    <Content Include="Views\MorePages\Profile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Base\" />
+    <Folder Include="Views\Calendar\" />
+    <Folder Include="Views\Dashboard\" />
+    <Folder Include="Views\Forms\" />
+    <Folder Include="Views\Gallery\" />
+    <Folder Include="Views\Tables\" />
+    <Folder Include="Views\UIElements\" />
+    <Folder Include="Views\Widgets\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

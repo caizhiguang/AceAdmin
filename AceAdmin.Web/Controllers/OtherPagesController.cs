@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace AceAdmin.Web.Controllers
 {
-    public class OtherPageController : BaseController
+    public class OtherPagesController : BaseController
     {
         // GET: OtherPage
         public ActionResult Blank()
