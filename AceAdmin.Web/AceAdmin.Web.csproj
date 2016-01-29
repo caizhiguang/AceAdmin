@@ -322,6 +322,8 @@
     <Content Include="Views\MorePages\Pricing.cshtml" />
     <Content Include="Views\MorePages\EmailTemplates.cshtml" />
     <Content Include="Views\Gallery\Index.cshtml" />
+    <Content Include="Views\Calendar\Index.cshtml" />
+    <Content Include="Views\Dashboard\Index.cshtml" />
     <None Include="Views\MorePages\Invoice.cshtml" />
     <Content Include="Views\MorePages\Timeline.cshtml" />
     <Content Include="Views\MorePages\Login.cshtml" />
@@ -329,8 +331,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Calendar\" />
-    <Folder Include="Views\Dashboard\" />
     <Folder Include="Views\Forms\" />
     <Folder Include="Views\Tables\" />
     <Folder Include="Views\UIElements\" />
