@@ -335,11 +335,18 @@
     <Content Include="Views\Widgets\Index.cshtml" />
     <Content Include="Views\Tables\Table.cshtml" />
     <Content Include="Views\Tables\JQGrid.cshtml" />
+    <Content Include="Views\UIElements\Elements.cshtml" />
+    <Content Include="Views\UIElements\Buttons.cshtml" />
+    <Content Include="Views\UIElements\Typography.cshtml" />
+    <Content Include="Views\UIElements\ContentSliders.cshtml" />
+    <Content Include="Views\UIElements\TreeView.cshtml" />
+    <Content Include="Views\UIElements\JQueryUI.cshtml" />
+    <Content Include="Views\UIElements\NestableLists.cshtml" />
+    <Content Include="Views\UIElements\TopMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\UIElements\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
