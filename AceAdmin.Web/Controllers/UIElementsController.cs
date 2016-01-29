@@ -48,5 +48,30 @@ namespace AceAdmin.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult TwoMenu1()
+        {
+            return View();
+        }
+
+        public ActionResult TwoMenu2()
+        {
+            return View();
+        }
+
+        public ActionResult MobileMenu1()
+        {
+            return View();
+        }
+
+        public ActionResult MobileMenu2()
+        {
+            return View();
+        }
+
+        public ActionResult MobileMenu3()
+        {
+            return View();
+        }
     }
 }

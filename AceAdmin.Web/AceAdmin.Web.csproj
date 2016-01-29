@@ -343,6 +343,11 @@
     <Content Include="Views\UIElements\JQueryUI.cshtml" />
     <Content Include="Views\UIElements\NestableLists.cshtml" />
     <Content Include="Views\UIElements\TopMenu.cshtml" />
+    <Content Include="Views\UIElements\TwoMenu1.cshtml" />
+    <Content Include="Views\UIElements\TwoMenu2.cshtml" />
+    <Content Include="Views\UIElements\MobileMenu1.cshtml" />
+    <Content Include="Views\UIElements\MobileMenu2.cshtml" />
+    <Content Include="Views\UIElements\MobileMenu3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
