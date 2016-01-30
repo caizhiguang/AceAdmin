@@ -329,6 +329,10 @@
     <Content Include="Views\Forms\FormWizard.cshtml" />
     <Content Include="Views\Forms\WYSIWYG.cshtml" />
     <Content Include="Views\Forms\Dropzone.cshtml" />
+    <Content Include="Views\MorePages\EmailConfirmation.cshtml" />
+    <Content Include="Views\MorePages\EmailNewsletter.cshtml" />
+    <Content Include="Views\MorePages\EmailNavbar.cshtml" />
+    <Content Include="Views\MorePages\EmailContrast.cshtml" />
     <None Include="Views\MorePages\Invoice.cshtml" />
     <Content Include="Views\MorePages\Timeline.cshtml" />
     <Content Include="Views\MorePages\Login.cshtml" />

@@ -42,5 +42,25 @@ namespace AceAdmin.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult EmailConfirmation()
+        {
+            return View();
+        }
+
+        public ActionResult EmailNavbar()
+        {
+            return View();
+        }
+
+        public ActionResult EmailNewsletter()
+        {
+            return View();
+        }
+
+        public ActionResult EmailContrast()
+        {
+            return View();
+        }
     }
 }
