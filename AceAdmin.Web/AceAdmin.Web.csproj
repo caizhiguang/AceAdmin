@@ -353,6 +353,7 @@
     <Content Include="Views\UIElements\MobileMenu2.cshtml" />
     <Content Include="Views\UIElements\MobileMenu3.cshtml" />
     <Content Include="Views\Shared\NavigatorBarList.cshtml" />
+    <Content Include="Views\Shared\Breadcrumbs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

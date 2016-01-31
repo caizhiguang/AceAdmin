@@ -18,5 +18,10 @@ namespace AceAdmin.Web.Controllers
         {
             return PartialView("NavigatorBarList");
         }
+
+        public ActionResult Breadcrumbs()
+        {
+            return PartialView("Breadcrumbs");
+        }
     }
 }
