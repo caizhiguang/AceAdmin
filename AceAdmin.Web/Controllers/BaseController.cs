@@ -11,7 +11,12 @@ namespace AceAdmin.Web.Controllers
         // GET: Base
         public ActionResult NavigatorBar()
         {
-            return PartialView("NavigatorBar");
+            return PartialView("NavigatorBarContainer");
+        }
+
+        public ActionResult NavigatorBarList()
+        {
+            return PartialView("NavigatorBarList");
         }
     }
 }

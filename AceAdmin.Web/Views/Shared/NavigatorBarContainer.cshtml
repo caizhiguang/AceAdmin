@@ -14,7 +14,7 @@
     </button>
 
     <div class="navbar-header pull-left">
-        <a href="index.html" class="navbar-brand">
+        <a href="@Url.Action("Index", "Dashboard")" class="navbar-brand">
             <small>
                 <i class="fa fa-leaf"></i>
                 Ace Admin
@@ -271,7 +271,7 @@
                     </li>
 
                     <li class="dropdown-footer">
-                        <a href="inbox.html">
+                        <a href="@Url.Action("Inbox", "MorePages")">
                             See all messages
                             <i class="ace-icon fa fa-arrow-right"></i>
                         </a>
@@ -299,7 +299,7 @@
                     </li>
 
                     <li>
-                        <a href="profile.html">
+                        <a href="@Url.Action("ProfilePage", "MorePages")">
                             <i class="ace-icon fa fa-user"></i>
                             Profile
                         </a>

@@ -311,7 +311,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Shared\NavigatorBar.cshtml" />
+    <Content Include="Views\Shared\NavigatorBarContainer.cshtml" />
     <Content Include="Views\OtherPages\Blank.cshtml" />
     <Content Include="Views\OtherPages\Error404.cshtml" />
     <Content Include="Views\OtherPages\Error500.cshtml" />
@@ -352,6 +352,7 @@
     <Content Include="Views\UIElements\MobileMenu1.cshtml" />
     <Content Include="Views\UIElements\MobileMenu2.cshtml" />
     <Content Include="Views\UIElements\MobileMenu3.cshtml" />
+    <Content Include="Views\Shared\NavigatorBarList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
