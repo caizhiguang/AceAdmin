@@ -21,7 +21,12 @@ namespace AceAdmin.Web.Controllers
 
         public ActionResult Breadcrumbs()
         {
-            return PartialView("Breadcrumbs");
+            return PartialView("BreadcrumbsPartial");
+        }
+
+        public ActionResult Footer()
+        {
+            return PartialView("FooterPartial");
         }
     }
 }

@@ -96,6 +96,7 @@
         </div>
         <div class="main-content">
             <div class="main-content-inner">
+
                 @Html.Action("Breadcrumbs", "Base")
 
                 <div class="page-content">
@@ -119,27 +120,27 @@
                                 </div>
 
                                 <div class="ace-settings-item">
-                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-navbar" />
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-navbar"/>
                                     <label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
                                 </div>
 
                                 <div class="ace-settings-item">
-                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-sidebar" />
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-sidebar"/>
                                     <label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
                                 </div>
 
                                 <div class="ace-settings-item">
-                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-breadcrumbs" />
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-breadcrumbs"/>
                                     <label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
                                 </div>
 
                                 <div class="ace-settings-item">
-                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" />
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl"/>
                                     <label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
                                 </div>
 
                                 <div class="ace-settings-item">
-                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-add-container" />
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-add-container"/>
                                     <label class="lbl" for="ace-settings-add-container">
                                         Inside
                                         <b>.container</b>
@@ -149,17 +150,17 @@
 
                             <div class="pull-left width-50">
                                 <div class="ace-settings-item">
-                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" />
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover"/>
                                     <label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
                                 </div>
 
                                 <div class="ace-settings-item">
-                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" />
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact"/>
                                     <label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
                                 </div>
 
                                 <div class="ace-settings-item">
-                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" />
+                                    <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight"/>
                                     <label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
                                 </div>
                             </div><!-- /.pull-left -->
@@ -178,31 +179,7 @@
                 </div><!-- /.page-content -->
             </div>
         </div><!-- /.main-content -->
-        <div class="footer">
-            <div class="footer-inner">
-                <div class="footer-content">
-                    <span class="bigger-120">
-                        <span class="blue bolder">Ace</span>
-                        Admin &copy; 2016
-                    </span>
-
-                    &nbsp; &nbsp;
-                    <span class="action-buttons">
-                        <a href="#">
-                            <i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
-                        </a>
-
-                        <a href="#">
-                            <i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
-                        </a>
-
-                        <a href="#">
-                            <i class="ace-icon fa fa-rss-square orange bigger-150"></i>
-                        </a>
-                    </span>
-                </div>
-            </div>
-        </div>
+        @Html.Action("Footer", "Base")
 
         <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
             <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
