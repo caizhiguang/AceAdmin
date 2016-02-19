@@ -8,6 +8,20 @@ namespace AceAdmin.Web.Controllers
 {
     public class BaseController : Controller
     {
+        #region Variables
+
+
+        protected string ControllerName
+        {
+            get
+            {
+                return (string)RouteData.Values["controller"];
+            }
+        }
+
+        #endregion
+
+
         // GET: Base
         public ActionResult NavigatorBar()
         {

@@ -123,6 +123,7 @@
     <Compile Include="Controllers\TablesController.cs" />
     <Compile Include="Controllers\UIElementsController.cs" />
     <Compile Include="Controllers\WidgetsController.cs" />
+    <Compile Include="Extensions\HtmlRequestHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

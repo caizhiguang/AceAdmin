@@ -6,13 +6,22 @@
     <ul class="breadcrumb">
         <li>
             <i class="ace-icon fa fa-home home-icon"></i>
-            <a href="#">Home</a>
+            <a href="@Url.Action("Index", "Dashboard")">Home</a>
         </li>
 
-        <li>
-            <a href="#">Other Pages</a>
-        </li>
-        <li class="active">Blank Page</li>
+        @if (@Html.Action() == "Index")
+        {
+            <li class="active">
+                <a href="@Url.Action("Index", @Html.Controller())">@Html.Controller()</a>
+            </li>
+        }
+        else
+        {
+            <li>
+                <a href="@Url.Action("Index", @Html.Controller())">@Html.Controller()</a>
+            </li>
+            <li class="active">@Html.Action()</li>
+        }
     </ul><!-- /.breadcrumb -->
 
     <div class="nav-search" id="nav-search">
